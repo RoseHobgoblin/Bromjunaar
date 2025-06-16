@@ -1,80 +1,160 @@
 [
   {
-    "name": "Address Library for SKSE Plugins",
-    "link": "https://www.nexusmods.com/skyrimspecialedition/mods/32444",
-    "files": [
-      "All in one (Anniversary Edition)"
-    ]
-  },
-  {
-    "name": "powerofthree's Tweaks",
-    "link": "https://www.nexusmods.com/skyrimspecialedition/mods/51073",
-    "files": [
-      "powerofthree's Tweaks AE"
-    ]
-  },
-  {
-    "name": "powerofthree's Papyrus Extender",
-    "link": "https://www.nexusmods.com/skyrimspecialedition/mods/22854",
+    "name": "Aetherius - A Race Overhaul",
+    "link": "https://www.nexusmods.com/skyrimspecialedition/mods/26686",
     "files": [
       {
-        "name": "Papyrus Extender",
-        "fomod": "There'll be a FOMOD, pick the AE option."
+        "name": "Aetherius - A Race Overhaul"
       }
     ]
   },
   {
-    "name": "Vanilla Scripting Enhancements",
-    "link": "https://www.nexusmods.com/skyrimspecialedition/mods/68139",
-    "files": [
-      "BSA Version"
-    ]
-  },
-  {
-    "name": "SSE Engine Fixes",
-    "link": "https://www.nexusmods.com/skyrimspecialedition/mods/17230",
+    "name": "Apothecary - An Alchemy Overhaul",
+    "link": "https://www.nexusmods.com/skyrimspecialedition/mods/52130",
     "files": [
       {
-        "name": "(Part 1) SSE Engine Fixes for 1.6.xxx",
-        "fomod": "go into the .toml and change \"MemoryManager\" and \"GlobalTime\" to true"
-      },
-      "(Part 2) Engine Fixes - skse64 Preloader and TBB Lib"
-    ]
-  },
-  {
-    "name": "PapyrusUtil SE - Modders Scripting Utility Functions",
-    "link": "https://www.nexusmods.com/skyrimspecialedition/mods/13048",
-    "files": [
-      "PapyrusUtil AE SE - Scripting Utility Functions"
-    ]
-  },
-  {
-    "name": "Papyrus Ini Manipulator",
-    "link": "https://www.nexusmods.com/skyrimspecialedition/mods/65634",
-    "files": [
-      "Papyrus Ini Manipulator"
-    ]
-  }
-]
-
-
-[
-  {
-    "name": "Skyrim Extended Cut - Saints and Seducers",
-    "link": "https://www.nexusmods.com/skyrimspecialedition/mods/72772",
-    "files": [
-      {
-        "name": "Ruin's Edge",
-        "fomod": "Install with default texture. Choose 'Balanced' version."
+        "name": "Apothecary - An Alchemy Overhaul"
       },
       {
-        "name": "Shadowrend",
-        "fomod": "Select 'Hardcore rebalance' during FOMOD. Uncheck 'Craftable option'."
+        "name": "Apothecary - Food and Drink Addon"
       },
       {
-        "name": "Staff of Sheogorath",
-        "fomod": "Enable lore-friendly voices. Leave texture pack at '2K'."
+        "name": "Apothecary - Fishing Patch"
+      },
+      {
+        "name": "Apothecary - Food and Drink Addon - USSEP Patch"
+      },
+      {
+        "name": "Apothecary - Rare Curios Patch"
+      },
+      {
+        "name": "Apothecary - Saints and Seducers Patch"
+      },
+      {
+        "name": "Apothecary - Wyrmstooth Patch"
       }
     ]
+  },
+  {
+    "name": "Gourmet - A Cooking Overhaul",
+    "link": "https://www.nexusmods.com/skyrimspecialedition/mods/96876",
+    "files": [
+      {
+        "name": "Gourmet - A Cooking Overhaul"
+      },
+      {
+        "name": "Gourmet - Simonrim Patches"
+      },
+      {
+        "name": "Gourmet - USSEP Patch"
+      }
+    ]
+  },
+  {
+    "name": "Stormcrown - A Shout Overhaul",
+    "link": "https://www.nexusmods.com/skyrimspecialedition/mods/90659",
+    "files": [
+      {
+        "name": "Stormcrown - A Shout Overhaul"
+      }
+    ]
+  },
+  {
+    "name": "Sil Gahrot - Improved Shout Learning",
+    "link": "https://www.nexusmods.com/skyrimspecialedition/mods/52007",
+    "files": [
+      {
+        "name": "Sil Gahrot - Improved Shout Learning"
+      }
+    ]
+  },
+  {
+    "name": "True Teacher Durnehviir",
+    "link": "https://www.nexusmods.com/skyrimspecialedition/mods/44969",
+    "files": [
+      {
+        "name": "True Teacher Durnehviir"
+      }
+    ]
+  },
+  {
+    "name": "Mundus - A Standing Stone Overhaul",
+    "link": "https://www.nexusmods.com/skyrimspecialedition/mods/33411",
+    "files": [
+      {
+        "name": "Mundus - A Standing Stone Overhaul"
+      }
+    ]
+  },
+  {
+    "name": "Arachnomancy - A Spider Scrolls Overhaul",
+    "link": "https://www.nexusmods.com/skyrimspecialedition/mods/67272",
+    "files": [
+      {
+        "name": "Arachnomancy - A Spider Scrolls Overhaul"
+      }
+    ]
+  },
+  {
+    "name": "Oblivion - An Atronach Forge Overhaul",
+    "link": "https://www.nexusmods.com/skyrimspecialedition/mods/69513",
+    "files": [
+      {
+        "name": "Oblivion - An Atronach Forge Overhaul"
+      }
+    ]
+  },
+  {
+    "name": "Scion - A Vampire Overhaul",
+    "link": "https://www.nexusmods.com/skyrimspecialedition/mods/41639",
+    "files": [
+      {
+        "name": "Scion - A Vampire Overhaul"
+      }
+    ]
+  },
+  {
+    "name": "Vampire Feeding Tweaks",
+    "link": "https://www.nexusmods.com/skyrimspecialedition/mods/47225",
+    "files": [
+      {
+        "name": "Vampire Feeding Tweaks"
+      }
+    ]
+  },
+  {
+    "name": "Manbeast - A Werewolf Overhaul",
+    "link": "https://www.nexusmods.com/skyrimspecialedition/mods/44746",
+    "files": [
+      {
+        "name": "Manbeast - A Werewolf Overhaul"
+      }
+    ]
+  },
+  {
+    "name": "Honed Metal -NPC Crafting and Enchanting Services-",
+    "link": "https://www.nexusmods.com/skyrimspecialedition/mods/61015",
+    "files": [
+      {
+        "name": "Honed Metal"
+      }
+    ]
+  },
+  {
+    "name": "Honed Metal Integration Patches",
+    "link": "https://www.nexusmods.com/skyrimspecialedition/mods/121791",
+    "files": [
+      {
+        "name": "Honed Metal Integration Patches"
+      },
+      {
+        "name": "Honed Metal Bruma Integration"
+      }
+    ]
+  },
+  {
+    "name": "Honed Metal Revoiced",
+    "link": "https://www.nexusmods.com/skyrimspecialedition/mods/34393",
+    "files": []
   }
 ]
