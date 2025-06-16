@@ -1,5 +1,65 @@
 [
   {
+    "name": "Address Library for SKSE Plugins",
+    "link": "https://www.nexusmods.com/skyrimspecialedition/mods/32444",
+    "files": [
+      "All in one (Anniversary Edition)"
+    ]
+  },
+  {
+    "name": "powerofthree's Tweaks",
+    "link": "https://www.nexusmods.com/skyrimspecialedition/mods/51073",
+    "files": [
+      "powerofthree's Tweaks AE"
+    ]
+  },
+  {
+    "name": "powerofthree's Papyrus Extender",
+    "link": "https://www.nexusmods.com/skyrimspecialedition/mods/22854",
+    "files": [
+      {
+        "name": "Papyrus Extender",
+        "fomod": "There'll be a FOMOD, pick the AE option."
+      }
+    ]
+  },
+  {
+    "name": "Vanilla Scripting Enhancements",
+    "link": "https://www.nexusmods.com/skyrimspecialedition/mods/68139",
+    "files": [
+      "BSA Version"
+    ]
+  },
+  {
+    "name": "SSE Engine Fixes",
+    "link": "https://www.nexusmods.com/skyrimspecialedition/mods/17230",
+    "files": [
+      {
+        "name": "(Part 1) SSE Engine Fixes for 1.6.xxx",
+        "fomod": "go into the .toml and change \"MemoryManager\" and \"GlobalTime\" to true"
+      },
+      "(Part 2) Engine Fixes - skse64 Preloader and TBB Lib"
+    ]
+  },
+  {
+    "name": "PapyrusUtil SE - Modders Scripting Utility Functions",
+    "link": "https://www.nexusmods.com/skyrimspecialedition/mods/13048",
+    "files": [
+      "PapyrusUtil AE SE - Scripting Utility Functions"
+    ]
+  },
+  {
+    "name": "Papyrus Ini Manipulator",
+    "link": "https://www.nexusmods.com/skyrimspecialedition/mods/65634",
+    "files": [
+      "Papyrus Ini Manipulator"
+    ]
+  }
+]
+
+
+[
+  {
     "name": "Skyrim Extended Cut - Saints and Seducers",
     "link": "https://www.nexusmods.com/skyrimspecialedition/mods/72772",
     "files": [
