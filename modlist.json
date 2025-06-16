@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Skyrim Extended Cut - Saints and Seducers",
+    "link": "https://www.nexusmods.com/skyrimspecialedition/mods/72772",
+    "files": [
+      {
+        "name": "Ruin's Edge",
+        "fomod": "Install with default texture. Choose 'Balanced' version."
+      },
+      {
+        "name": "Shadowrend",
+        "fomod": "Select 'Hardcore rebalance' during FOMOD. Uncheck 'Craftable option'."
+      },
+      {
+        "name": "Staff of Sheogorath",
+        "fomod": "Enable lore-friendly voices. Leave texture pack at '2K'."
+      }
+    ]
+  }
+]
