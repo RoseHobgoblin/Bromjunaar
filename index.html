@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Skyrim Modlist</title>
+  <style>
+    body { font-family: sans-serif; background: #1e1e1e; color: #ddd; padding: 2em; }
+    .mod { margin-bottom: 2em; }
+    .mod h2 { margin-bottom: 0.2em; color: #ffd700; }
+    .mod a { color: #87ceeb; }
+    ul { margin-top: 0.5em; }
+  </style>
+</head>
+<body>
+  <h1>My Skyrim Modlist</h1>
+  <div id="modlist">Loading...</div>
+
+<script>
+  fetch('modlist.json')
+    .then(response => response.json())
+    .then(mods => {
+      const container = document.getElementById('modlist');
+      container.innerHTML = '';
+      mods.forEach(mod => {
+        const div = document.createElement('div');
+        div.className = 'mod';
+
+        const title = document.createElement('h2');
+        title.textContent = mod.name;
+
+        const link = document.createElement('a');
+        link.href = mod.link;
+        link.textContent = 'Nexus Link';
+        link.target = '_blank';
+
+        const ul = document.createElement('ul');
+        mod.files.forEach(file => {
+          const li = document.createElement('li');
+
+          if (typeof file === 'string') {
+            // Basic case: just a name
+            li.textContent = file;
+          } else {
+            // Advanced case: name + fomod
+            li.innerHTML = `<strong>${file.name}</strong>`;
+            if (file.fomod) {
+              const details = document.createElement('details');
+              const summary = document.createElement('summary');
+              summary.textContent = 'FOMOD Instructions';
+              const instructions = document.createElement('p');
+              instructions.textContent = file.fomod;
+              details.appendChild(summary);
+              details.appendChild(instructions);
+              li.appendChild(details);
+            }
+          }
+
+          ul.appendChild(li);
+        });
+
+        div.appendChild(title);
+        div.appendChild(link);
+        div.appendChild(ul);
+        container.appendChild(div);
+      });
+    })
+    .catch(err => {
+      document.getElementById('modlist').textContent = 'Failed to load modlist.';
+      console.error(err);
+    });
+</script>
+</body>
+</html>
